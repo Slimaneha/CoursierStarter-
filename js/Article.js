@@ -467,10 +467,31 @@ function informationArticle() {
     document.getElementById("Ta17").innerHTML=A17["nomProduit"]
     document.getElementById("Pa17").innerHTML=A17["prix"]
 
-    document.getElementById("Ta18").innerHTML=A18["nomProduit"]
     document.getElementById("Pa18").innerHTML=A18["prix"]
 
     document.getElementById("Ta19").innerHTML=A19["nomProduit"]
     document.getElementById("Pa19").innerHTML=A19["prix"]
+
+}
+
+
+
+
+
+
+
+
+
+
+
+function informationUn () {
+   
+    document.getElementById("nomProduit").innerHTML=A18["nomProduit"]
+
+    document.getElementById("Pa4").style.display="block"
+
+
+
+
 
 }

@@ -266,6 +266,18 @@ textarea {
 
 
 
+    /* Photo */ 
+
+    #Pa1, #Pa2,#Pa3,#Pa4,#Pa5,#Pa6,#Pa7,#Pa8,#Pa9,#Pa10,#Pa11,#Pa12,#Pa13,#Pa14,#Pa15,#Pa16,#Pa17,#Pa18
+    {
+        display: none ; 
+    }
+
+
+    #listeInformation {
+        margin-right: 2em; 
+        border-top: #000 solid 1px; 
+    }
     @media screen and (max-width: 650px) { 
 
         #annumationDebut, #btnRetour     {
