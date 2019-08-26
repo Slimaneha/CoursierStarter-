@@ -132,38 +132,7 @@ var A1 = {
 
 
 
-    function informationArticle() {
-        document.getElementById("Ta1").innerHTML=A1["nomProduit"]
-        document.getElementById("Pa1").innerHTML=A1["prix"]
-
-        document.getElementById("Ta2").innerHTML=A2["nomProduit"]
-        document.getElementById("Pa2").innerHTML=A2["prix"]
-
-
-        document.getElementById("Ta3").innerHTML=A3["nomProduit"]
-        document.getElementById("Pa3").innerHTML=A3["prix"]
-
-        document.getElementById("Ta4").innerHTML=A4["nomProduit"]
-        document.getElementById("Pa4").innerHTML=A4["prix"]
-
-
-        document.getElementById("Ta5").innerHTML=A5["nomProduit"]
-        document.getElementById("Pa5").innerHTML=A5["prix"]
-
-        document.getElementById("Ta6").innerHTML=A7["nomProduit"]
-        document.getElementById("Pa6").innerHTML=A7["prix"]
-
-        document.getElementById("Ta8").innerHTML=A8["nomProduit"]
-        document.getElementById("Pa8").innerHTML=A8["prix"]
-
-        document.getElementById("Ta9").innerHTML=A9["nomProduit"]
-        document.getElementById("Pa9").innerHTML=A9["prix"]
-
-       
-
-
-    }
-
+    
 
 
 
@@ -221,6 +190,139 @@ var A1 = {
 // Soft 
 
 
+var  A10  = {
+    nomProduit: " Red Bull energy drink ",
+    type: "Soft",  
+    quantité: "25cl",
+    prix: "2€",
+    information: "RED BULL VIVIFIE LE CORPS ET L'ESPRIT ®.. Boisson énergisante",
+
+
+}
+
+
+
+var  A11  = {
+    nomProduit: "  Coca Cola Original  ",
+    type: "Soft",  
+    quantité: "1,75l",
+    prix: "2€",
+    information: "Boisson rafraîchissante aux extraits végétaux. Savourez l'instant avec Coca-Cola Original. Depuis plus d'un siècle, Coca-Cola accompagne vos moments de convivialité pour une expérience toujours rafraîchissante et pétillante. Encore meilleur servi à 3°C avec des glaçons et une demi-tranche de citron frais.. Boisson rafraîchissante aux extraits végétaux.",
+
+
+}
+
+
+
+var  A12  = {
+    nomProduit: "  Coca-Cola cherry   ",
+    type: "Soft",  
+    quantité: "1,25l",
+    prix: "2€",
+    information: "1.25 LTR. Boisson rafraîchissante aux extraits végétaux et arôme cerise.;",
+
+
+}
+
+
+
+
+
+
+var  A13  = {
+    nomProduit: "   Oasis tropical  ",
+    type: "Soft",  
+    quantité: "2l",
+    prix: "3,50€",
+    information: "Oasis Tropical, une boisson rafraîchissante au bon goût de fruits exotiques, qui allie le plaisir des fruits au naturel de l’eau de source, sans conservateur et sans colorant artificiel, ni édulcorant.. Boisson rafraîchissante aux fruits et à l'eau de source, aromatisée.  ",
+
+
+}
+
+
+
+var  A14  = {
+    nomProduit: " Tropico exotique ",
+    type: "Soft",  
+    quantité: "1,5l",
+    prix: "3,50€",
+    information: "Tropico Exotique Bouteille PET 1.5Lx6. boisson rafraichissante aux fruits, aromatisée sans bulle ",
+
+
+}
+
+
+
+var  A15  = {
+    nomProduit: "  Oasis pomme cassis framboise  ",
+    type: "Soft",  
+    quantité: "2l",
+    prix: "3,50€",
+    information: "OASIS POMME CASSIS FRAMBOISE PET 2L. Boisson rafraîchissante aux fruits et à l'eau de source, saveur pomme cassis framboise. Saveur Pomme Cassis Framboise (taille de saveur au moins 75% de Pomme Cassis Framboise)",
+
+
+}
+
+
+
+var  A16  = {
+    nomProduit: "   Lipton Ice Tea pêche ",
+    type: "Soft",  
+    quantité: "1.5l",
+    prix: "2€",
+    information: " Boisson rafraîchissante aux extraits de thé et aromatisée pêche, avec sucres et édulcorant.",
+
+
+}
+
+
+
+var  A17  = {
+    nomProduit: "    Lipton ice tea framboise 1l",
+    type: "Soft",  
+    quantité: "1l",
+    prix: "2€",
+    information: "Boisson rafraîchissante aux extraits de thé et aromatisée framboise, avec sucre et édulcorant.",
+
+
+}
+
+
+var  A18  = {
+    nomProduit: "  Monster Energy boite ",
+    type: "Soft",  
+    quantité: "50cl",
+    prix: "2€",
+    information: "0,5 LT. Boisson énergisante gazeuse enrichie en vitamines B2, B3, B6 en B12 avec sucres et édulcorant. Contient de la taurine, de la L-carnitine et du ginseng..",
+
+
+}
+
+
+
+var  A19  = {
+    nomProduit: "  Schweppes agrum ",
+    type: "Soft",  
+    quantité: "1.5l",
+    prix: "2,50€",
+    information: "Schweppes Agrumes, aux saveurs irrésistibles d’orange, de pamplemousse, de citron vert & de mandarine, sans colorant et sans arôme artificiel*. * avec arômes naturels. Boisson gazeuse rafraîchissante aux arômes naturels d'agrumes avec autres arômes naturels, avec sucre et édulcorants. Aux saveurs de 4 agrumes / Aux saveurs d'agrumes.",
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -267,3 +369,108 @@ var A1 = {
 
 
 // hygenes 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//// *****************************   FUCTION  ******************************************** //////
+
+
+
+
+function informationArticle() {
+   // alcool Information 
+   
+    document.getElementById("Ta1").innerHTML=A1["nomProduit"]
+    document.getElementById("Pa1").innerHTML=A1["prix"]
+
+    document.getElementById("Ta2").innerHTML=A2["nomProduit"]
+    document.getElementById("Pa2").innerHTML=A2["prix"]
+
+
+    document.getElementById("Ta3").innerHTML=A3["nomProduit"]
+    document.getElementById("Pa3").innerHTML=A3["prix"]
+
+    document.getElementById("Ta4").innerHTML=A4["nomProduit"]
+    document.getElementById("Pa4").innerHTML=A4["prix"]
+
+
+    document.getElementById("Ta5").innerHTML=A5["nomProduit"]
+    document.getElementById("Pa5").innerHTML=A5["prix"]
+
+    document.getElementById("Ta6").innerHTML=A6["nomProduit"]
+    document.getElementById("Pa6").innerHTML=A6["prix"]
+
+    document.getElementById("Ta7").innerHTML=A7["nomProduit"]
+    document.getElementById("Pa7").innerHTML=A7["prix"]
+
+    document.getElementById("Ta8").innerHTML=A8["nomProduit"]
+    document.getElementById("Pa8").innerHTML=A8["prix"]
+
+    
+
+    
+    
+
+
+   
+
+
+    // soft Information 
+
+
+    document.getElementById("Ta10").innerHTML=A10["nomProduit"]
+    document.getElementById("Pa10").innerHTML=A10["prix"]
+
+    document.getElementById("Ta11").innerHTML=A11["nomProduit"]
+    document.getElementById("Pa11").innerHTML=A11["prix"]
+
+
+    document.getElementById("Ta12").innerHTML=A12["nomProduit"]
+    document.getElementById("Pa12").innerHTML=A12["prix"]
+
+    document.getElementById("Ta13").innerHTML=A13["nomProduit"]
+    document.getElementById("Pa13").innerHTML=A13["prix"]
+
+
+    document.getElementById("Ta14").innerHTML=A14["nomProduit"]
+    document.getElementById("Pa14").innerHTML=A14["prix"]
+
+    document.getElementById("Ta15").innerHTML=A15["nomProduit"]
+    document.getElementById("Pa15").innerHTML=A15["prix"]
+
+    document.getElementById("Ta16").innerHTML=A16["nomProduit"]
+    document.getElementById("Pa16").innerHTML=A16["prix"]
+
+    document.getElementById("Ta17").innerHTML=A17["nomProduit"]
+    document.getElementById("Pa17").innerHTML=A17["prix"]
+
+    document.getElementById("Ta18").innerHTML=A18["nomProduit"]
+    document.getElementById("Pa18").innerHTML=A18["prix"]
+
+    document.getElementById("Ta19").innerHTML=A19["nomProduit"]
+    document.getElementById("Pa19").innerHTML=A19["prix"]
+
+}
